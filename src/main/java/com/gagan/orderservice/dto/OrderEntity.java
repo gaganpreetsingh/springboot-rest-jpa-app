@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 public class OrderEntity {
 
     @Id
-    @GeneratedValue
     @Column(name = "order_id")
     private Long orderId;
     @Column(name = "order_name")
